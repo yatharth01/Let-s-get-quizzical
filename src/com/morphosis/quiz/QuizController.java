@@ -22,4 +22,30 @@ public class QuizController {
 		
 		return "myservlet";
 	}
+	
+	@RequestMapping("/q1")
+	public String question1(Model theModel) {
+		
+		return "q1";
+	}
+	
+	@RequestMapping("/q2")
+	public String question2(Model theModel) {
+		
+		return "q2";
+	}
+	
+	@RequestMapping("/q3")
+	public String question3(Model theModel) {
+		
+		return "q3";
+	}
+	@RequestMapping("/score")
+	public String score(Model theModel) {
+		
+		return "score";
+	}
+
+
+	
 }
